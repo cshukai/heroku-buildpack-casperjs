@@ -30,7 +30,7 @@ mv $CACHE_DIR/$ARCHIVE_NAME $BUILD_DIR/vendor/phantomjs
 echo "-----> Cloning CasperJS"
 cd ${BUILD_DIR}/vendor
 git clone git://github.com/n1k0/casperjs.git
-git checkout 76fc8318364ff7b7f2497d0c4b2f7faa47b23756 # capser 1.0.3
+#git checkout 76fc8318364ff7b7f2497d0c4b2f7faa47b23756 # capser 1.0.3
 
 echo "-----> Installing .profile.d/casperjs.sh"
 cd ${BUILD_DIR}
